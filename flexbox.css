@@ -1,0 +1,35 @@
+.outer {
+    background-color: rgb(74, 153, 222);
+    margin: 30px;
+    padding: 15px;
+    display: flex;
+    gap: 12px;
+    width: 300px;
+    height: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    /* flex-direction: row;
+  
+    justify-content: center;
+    align-content: center; */
+}
+
+.items {
+    background-color: rgb(223, 118, 214);
+    color: white;
+    padding: 10px;
+    border: 2px solid rgb(4, 4, 4);
+}
+
+items1 {
+    align-self: auto;
+    flex-grow: ;
+}
+
+.items2 {
+    align-self: baseline;
+}
+
+.items7 {
+    order: -1;
+}
